@@ -122,7 +122,6 @@ public class MyJFrame extends JFrame {
                 }
             });
             container.add(saveButton);
-
             this.setVisible(true);
         }
     }
