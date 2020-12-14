@@ -10,6 +10,7 @@ import java.io.File;
 import java.util.List;
 
 public class MyJFrame extends JFrame {
+
     private int counter = 1;
     private final List<Record> records = Util.showRecordsFromFile(new File("records.txt"));
     private int rows = records.size() + 2;
